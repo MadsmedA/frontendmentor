@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: url(../assets/images/pattern-background-desktop.svg) repeat-x;
+  font-family: "Red Hat Display", sans-serif;
+  height: 120vh;
+  width: 100%;
+  position: relative;
+}
+
+body img.template-img {
+  height: 100%;
+  opacity: 0%;
+  width: 100%;
+}
+
+body .site-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.order-summary-container {
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  height: 740px;
+  width: 475px;
+}
+
+.order-summary-container img.content-img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: auto;
+  width: 100%;
+}
+
+.text-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px 50px;
+}
+
+.text-wrapper h1 {
+  letter-spacing: -1.2px;
+  margin: 0;
+}
+
+.text-wrapper p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  margin: 20px 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.deal-wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f0f1f5;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  width: 100%;
+}
+
+.deal-wrapper .deal {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.deal-wrapper p {
+  margin: 0;
+}
+
+.deal-wrapper img {
+  height: 50px;
+  width: 50px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button.proceed {
+  background-color: #382ae1;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  margin: 30px 0;
+  padding: 20px;
+  width: 100%;
+}
+
+button.cancel {
+  background: none;
+  font-size: 1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
